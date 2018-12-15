@@ -29,7 +29,7 @@ For the simplest way to use :
 
 int main()
 {
-    dkJSON json;
+    dkJSON json = {NULL, 0, 0};
     dkjson_init(&json);
 
     dkjson_put_string(&json, "str", "hahahahaha");
