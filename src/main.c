@@ -9,6 +9,7 @@ int main() {
     dkjson_put_string(&json, "str", "hahahahaha");
     dkjson_put_int(&json, "int", 21474);
     dkjson_put_short(&json, "short", 585);
+    dkjson_put_long(&json, "long", 21474838554568956);
     dkjson_put_float(&json, "float", 12.56f);
     dkjson_put_double(&json, "double", 12.59822221);
     dkjson_put_unsignedint(&json, "unsignedint", 2147483855);
